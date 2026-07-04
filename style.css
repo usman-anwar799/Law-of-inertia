@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f1f1f;
+    overflow: hidden;
+    flex-direction: column;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#spring {
+    width: 68px;
+    height: 200px;
+    cursor: pointer;
+    transform-origin: top;
+    /* background-color: rgb(255, 0, 0); */
+}
+.coil {
+    width: 40px;
+    height: 8%;
+    background-color: white;
+    border-radius: 500px;
+    /* background: repeating-linear-gradient(to bottom,
+            silver 0px,
+            silver 5px,
+            transparent 5px,
+            transparent 10px); */
+    /* transform: rotate(180deg); */
+}
+
+.weight {
+    width: 90px;
+    height: 90px;
+    background: #ff4d4d;
+    border-radius: 12px;
+    rotate: 100px;
+}
+
+h1 {
+    margin: 0px 0px 200px 0px;
+    position: absolute;
+    top: 50px;
+    display: block;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#spring{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#spring .coil{
+    width:60px;
+    height:22px;
+    border:2px solid silver;
+    border-radius:50%;
+    margin-top:-7px;
+    background-color: rgb(57, 56, 56);
+    background: #1f1f1f;
+    /* background-color: transparent; */
+}
+/* #coil1{
+    z-index: 20;
+}
+#coil2{
+    z-index: 19;
+}
+#coil3{
+    z-index: 18;
+    
+}
+#coil4{
+    z-index: 17;
+    
+}
+#coil5{
+    z-index: 16;
+    
+}
+#coil6{
+    z-index: 15;
+    
+}
+#coil7{
+    z-index: 14;
+    
+}
+#coil8{
+    z-index: 13;
+    
+}
+#coil9{
+    z-index: 12;
+    
+}
+#coil10{
+    z-index: 11;
+
+}
+#coil11{
+    z-index: 10;
+    
+}
+#coil12{
+    z-index: 9;
+    
+}
+#coil13{
+    z-index: 8;
+    
+}
+#coil14{
+    z-index: 7;
+}
+#coil15{
+    z-index: 6;
+}
+#coil16{
+    z-index: 5;
+} */
